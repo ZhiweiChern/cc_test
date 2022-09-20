@@ -1,10 +1,13 @@
 
 
-quiet=quiet_
-Q = @
+# quiet=quiet_
+# Q = @
+
+quiet=
+Q =
 export quiet Q
 
-# MAKEFLAGS += --no-print-directory
+MAKEFLAGS += --no-print-directory
 
 HOSTCC       = cc
 HOSTCXX      = c++
